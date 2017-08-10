@@ -35,6 +35,6 @@ install:
     - pip install properform
 
 script: 
-    - nosetests --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_bx-python_3d0b870e2f_1
-    - python -m properform Push 47.88.50.110:15554 asdf_bx-python_3d0b870e2f_1 ./profile_bx-python_3d0b870e2f_1
-#2017-08-10 18:11:46 modified at 0#2017-08-10 18:11:52 modified at 1
+    - nosetests --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_bx-python_3d0b870e2f_2
+    - python -m properform Push 47.88.50.110:15554 asdf_bx-python_3d0b870e2f_2 ./profile_bx-python_3d0b870e2f_2
+#2017-08-10 18:11:46 modified at 0#2017-08-10 18:11:52 modified at 1#2017-08-10 18:11:58 modified at 2
